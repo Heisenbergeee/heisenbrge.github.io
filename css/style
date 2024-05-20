@@ -1,0 +1,120 @@
+@font-face {
+    font-family:"dana";
+    src: url(../fonts/dana-black.ttf) format(ttf);
+    src: url(../fonts/dana-black.woff) format(woff);
+    src: url(../fonts/dana-black.eot) format(eot);
+}
+
+*{
+    margin: auto;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(../img/back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    padding: 1vw;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+    box-shadow: 0px 0px 30px gold;
+}
+
+header nav{
+    background-color:black;
+    padding: 2vw;
+    border-radius: 2vw;
+    width: max-content;
+    box-shadow: 0px 0px 10px #fff;
+}
+
+header nav a{
+    background-color: rgb(65, 65, 255);
+    padding: 1vw;
+    border-radius: 5vw;
+    color: #fff;
+    justify-content: center;
+    display: inline;
+    margin-right: 2vw;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+header nav a:hover{
+    color:black;
+    background-color:gold;
+    box-shadow: 0px 0px 25px gold;
+}
+
+header h1{
+    padding: 1vw;
+    display:flex;
+    color: #fff;
+    background-color: black;
+    border-radius: 1vw;
+    float: left;
+    margin: 0;
+}
+
+.logo-1{
+    margin-left: 2vw;
+    text-shadow:0px 0px 25px gold;
+}
+
+.logo-2{
+    text-shadow: 0px 0px 15px rgb(255, 0, 0);
+    color: black;
+    background-color: gold;
+}
+
+main{
+    width: 90%;
+}
+
+.title-2{
+    width: 100%;
+    height: max-content;
+    background-color: rgba(255, 217, 0, 0.548);
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px gold;
+}
+
+main .title-2 h1{
+    text-align: center;
+    font-family: 'dana';
+    color: rgb(250, 9, 9);
+}
+
+.zeus img{
+    width: 40vw;
+    float: left;
+    display: flex;
+    margin-top: 20px ;
+}
+
+.title{
+    color: #fff;
+    font-family: 'dana';
+    float: inline-end;
+    text-align: center;
+    margin-top: 200px;
+    margin-right: 100px;
+    text-shadow: 0px 0px 10px gold;
+    margin-bottom: 200px;
+}
+
+.title-2{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: max-content;
+    margin-top: 42%;
+}
